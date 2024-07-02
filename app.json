@@ -1,0 +1,18 @@
+{
+  "name": "Dragon-V1",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/Frank-AI-Tech/Dragon-V1",
+  "logo": "https://telegra.ph/file/cbf9fca4824f1778a8466.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
