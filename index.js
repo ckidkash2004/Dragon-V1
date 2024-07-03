@@ -17,7 +17,7 @@
                  >
 */
 
-require('./hwkal')
+require('./config')
 const { default: makeWASocket, useMultiFileAuthState, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, getAggregateVotesInPollMessage, proto } = require("@whiskeysockets/baileys")
 const fs = require('fs')
 const pino = require('pino')
@@ -80,7 +80,7 @@ printQRInTerminal: true,
 browser: ['Zetsubo V1','Safari','1.0.0'],
 auth: state})
 //=================================================//
-classic.decodeJid = (jid) => {
+dragon.decodeJid = (jid) => {
 if (!jid) return jid
 if (/:\d+@/gi.test(jid)) {
 let decode = jidDecode(jid) || {}
@@ -88,7 +88,7 @@ return decode.user && decode.server && decode.user + '@' + decode.server || jid
 } else return jid
 }
 //=================================================//
-classic.ev.on('messages.upsert', async chatUpdate => {
+dragon.ev.on('messages.upsert', async chatUpdate => {
 try {
 mek = chatUpdate.messages[0]
 if (!mek.message) return
@@ -103,23 +103,23 @@ console.log(err)
 }
 })
 //=================================================//
-classic.ev.on('group-participants.update', async (anu) => {
+dragon.ev.on('group-participants.update', async (anu) => {
 if (!wlcm.includes(anu.id)) return
 console.log(anu)
 try {
-let metadata = await classic.groupMetadata(anu.id)
+let metadata = await dragon.groupMetadata(anu.id)
 let participants = anu.participants
 for (let num of participants) {
 // Get Profile Picture User
 try {
-ppuser = await classic.profilePictureUrl(num, 'image')
+ppuser = await dragon.profilePictureUrl(num, 'image')
 } catch {
 ppuser = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60'
 }
 
 // Get Profile Picture Group
 try {
-ppgroup = await classic.profilePictureUrl(anu.id, 'image')
+ppgroup = await dragon.profilePictureUrl(anu.id, 'image')
 } catch {
 ppgroup = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60'
 }
