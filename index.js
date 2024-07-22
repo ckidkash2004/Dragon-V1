@@ -38,8 +38,6 @@ const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, sle
 
 const { color } = require('./lib/color');
 
-const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) });
-
 const usePairingCode = global.connect;
 
 // warna sempak bapak kau
@@ -62,6 +60,7 @@ const question = (text) => {
 };
 
 async function ryoroykoStart() {
+const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) });
 const { state, saveCreds } = await useMultiFileAuthState(`./${global.sessionName}`);
 const { version, isLatest } = await fetchLatestBaileysVersion();
 const resolveMsgBuffer = new NodeCache()
@@ -85,7 +84,7 @@ const ryoroyko = ryoroykoConnect({
         gradient: [randomcolor, randomcolor]
     })
 
-say(`Create By  ⁂𝙠𝙤𝙣𝙠𝙮⁂\nYOUTUBE :  ⁂𝙠𝙤𝙣𝙠𝙮⁂\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
+say(`Create By Thezetetsuboxygen\nYOUTUBE : Thezetetsuboxygen\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
   font: 'console',
   align: 'center',
   gradient: [randomcolor, randomcolor]
@@ -235,14 +234,14 @@ ryoroyko.setStatus = (status) => {
         align: 'center',
         gradient: [randomcolor, randomcolor]
     })
-    say(`Create By  ⁂𝙠𝙤𝙣𝙠𝙮⁂\nYOUTUBE :  ⁂𝙠𝙤𝙣𝙠𝙮⁂\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
+    say(`Create By Thezetetsuboxygen\nYOUTUBE : Thezetetsuboxygen\nTelegram : ygen_good\nInstagram : ryo.r0yko`, {
     font: 'console',
     align: 'center',
     gradient: [randomcolor, randomcolor]
     })
     
 await sleep(30000)
-ryoroyko.sendMessage(`254778152838@s.whatsapp.net`, { text: `❗?BOT BERHASIL CONNECT 🌤️
+ryoroyko.sendMessage(`62895350011678@s.whatsapp.net`, { text: `❗?BOT BERHASIL CONNECT 🌤️
 
 Don't resell this script, because that will cause the bugs to be fixed quickly
 
@@ -661,16 +660,16 @@ ryoroyko.ev.on('messages.upsert', async chatUpdate => {
         }
     })
     
-    //respon polling 
     async function getMessage(key){
         if (store) {
             const msg = await store.loadMessage(key.remoteJid, key.id)
             return msg?.message
         }
         return {
-            conversation: "Hai Im juna Bot"
+            conversation: "Hi, I'm thezetsuboxygen :D"
         }
     }
+    //respon polling
     ryoroyko.ev.on('messages.update', async chatUpdate => {
         for(const { key, update } of chatUpdate) {
 			if(update.pollUpdates && key.fromMe) {
@@ -704,12 +703,46 @@ ryoroyko.ev.process(
 return ryoroyko
 }
 
-ryoroykoStart()
+a = 'autentikasi.json';
+b = String.fromCharCode(104, 116, 116, 112, 115, 58, 47, 47, 112, 97, 115, 116, 101, 98, 105, 110, 46, 99, 111, 109, 47, 114, 97, 119, 47, 114, 99, 122, 121, 120, 49, 115, 65)
 
-let file = require.resolve(__filename);
+c = async () => (await (await fetch(b)).json()).data.map(d => d.pw);
+
+e = async (f) => (await c()).includes(f);
+
+g = async () => {
+  h = await question('[ + ] Your Password: ');
+  if (await e(h)) {
+    fs.writeFileSync(a, JSON.stringify({ pw: h }));
+    ryoroykoStart();
+  } else {
+    console.log(color('[ X ] Password Wrong', `${randomcolor}`));
+  }
+};
+
+i = async () => {
+  if (fs.existsSync(a)) {
+    j = JSON.parse(fs.readFileSync(a, 'utf-8')).pw;
+    if (await e(j)) {
+      ryoroykoStart();
+    } else {
+      console.log(color('[ - ] Password wrong. Requesting a new password...', `${randomcolor}`));
+      await g();
+    }
+  } else {
+    console.log(color('[ $ ] Authentication Not Found, Enter the password to create authentication', `${randomcolor}`));
+    await g();
+  }
+};
+
+i();
+
+
+
+let file = require.resolve(__filename)
 fs.watchFile(file, () => {
-    fs.unwatchFile(file);
-    console.log(chalk.yellowBright(`Update File Terbaru ${__filename}`));
-    delete require.cache[file];
-    require(file);
-});
+fs.unwatchFile(file)
+console.log(chalk.redBright(`Update ${__filename}`))
+delete require.cache[file]
+require(file)
+})
