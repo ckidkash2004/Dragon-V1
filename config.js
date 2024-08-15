@@ -26,9 +26,9 @@ global.prefa = ['','!','.',',','🐤','🗿']
 global.owner = ['254796283064']
 global.ownMain = '254796283064'
 global.NamaOwner = '𝗖𝗼𝗻𝗳𝗿𝗼𝗻𝘁𝗲𝗿' //gausah diganti 
-global.sessionName = 'ryokunsession'
+global.sessionName = 'dragonsession'
 global.connect = true // Ubah Ke False Jika Ingin Menggunakan Qr Code
-global.namabot = '𝗗𝗿𝗮𝗴𝗼𝗻' //ganti aj klo mau
+global.namabot = '𝗗𝗿𝗮𝗴𝗼𝗻 𝐕𝟏' //ganti aj klo mau
 global.author = '𝗖𝗼𝗻𝗳𝗿𝗼𝗻𝘁𝗲𝗿' //ganti aj klo mau
 global.packname = '𝗗𝗿𝗮𝗴𝗼𝗻' //ganti aj klo mau
 global.yt = 'https://whatsapp.com/channel/0029Vag3MeuGJP8LZb1Okj39' //gausah diganti
@@ -46,7 +46,7 @@ global.listr = ` │⬡ 1GB Cpu: 50% - 3.000/bln
  
 //===========================//
 
-global.country = `62`
+global.country = `254`
 global.system = {
 gmail: `confrontermfisa@gmail.com`,
 }
