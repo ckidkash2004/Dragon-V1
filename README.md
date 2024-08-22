@@ -20,15 +20,15 @@
 
 ## 🐉𝐌𝐀𝐃𝐄 𝐁𝐘 𝐂𝐎𝐍𝐅𝐑𝐎𝐍𝐓𝐄𝐑
 
-# 🐉```Must fork the repository✝️```
+# 🐉```𝐌𝐮𝐬𝐭 𝐟𝐨𝐫𝐤 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲```
 
 - 𝗙𝗼𝗿𝗸 𝗧𝗵𝗲 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 [Here](https://github.com/Confronter/Dragon-v1/fork)
 
-## `Deadpool Pair Code For Session`
+## `𝐏𝐚𝐢𝐫 𝐜𝐨𝐝𝐞 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐟𝐨𝐫 𝐃𝐫𝐚𝐠𝐨𝐧`
 [![Deadpool](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@confrontermfisa/Deadpool-pair-4?s=app)
 
 
-# 🐉```Deployment✝️```
+# 🐉```𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓```
   # ❄️SEE Tutorial how to deploy✔️
 [Video Tutorial](https://t.me/dragonbugkiller/31)
 ## Heroku Buildpack
@@ -37,7 +37,7 @@ heroku/nodejs
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
-*Add your Creds.json to Classic file
+*Add your Creds.json to 𝐝𝐫𝐚𝐠𝐨𝐧𝐬𝐞𝐬𝐬𝐢𝐨𝐧 file
 * Create a new app at [Heroku](heroku.com)
 * Add Build packs
 * Connect your heroku with your github
