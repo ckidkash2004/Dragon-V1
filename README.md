@@ -25,13 +25,13 @@
 - 𝗙𝗼𝗿𝗸 𝗧𝗵𝗲 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 [Here](https://github.com/Confronter/Dragon-v1/fork)
 
 ## `𝐏𝐚𝐢𝐫 𝐜𝐨𝐝𝐞 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐟𝐨𝐫 𝐃𝐫𝐚𝐠𝐨𝐧`
-[![Deadpool](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@confrontermfisa/Deadpool-pair-4?s=app)
+[![𝐃𝐑𝐀𝐆𝐎𝐍](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@confrontermfisa/Deadpool-pair-4?s=app)
 
 
 # 🐉```𝐃𝐄𝐏𝐋𝐎𝐘𝐌𝐄𝐍𝐓```
-  # ❄️SEE Tutorial how to deploy✔️
-[Video Tutorial](https://t.me/dragonbugkiller/31)
-## Heroku Buildpack
+  # 🔵𝐒𝐄𝐄 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥 𝐡𝐨𝐰 𝐭𝐨 𝐃𝐞𝐩𝐥𝐨𝐲
+[𝐕𝐢𝐝𝐞𝐨 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥](https://t.me/dragonbugkiller/31)
+## 𝐇𝐞𝐫𝐨𝐤𝐮 𝐁𝐮𝐢𝐥𝐝𝐩𝐚𝐜𝐤
 ```bash
 heroku/nodejs
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
@@ -47,7 +47,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 * Enjoy the Bot.
 ```
 ```
-## 🐉For Termux/Ssh/Ubuntu
+## 🐉𝐅𝐨𝐫 𝐓𝐞𝐫𝐦𝐮𝐬/𝐬𝐬𝐡/𝐔𝐛𝐮𝐧𝐭𝐮
 ```bash
 apt update
 apt upgrade
@@ -64,7 +64,7 @@ cd Deadpool-Md
 yarn install
 npm start
 ```
-## 🐉For VPS
+## 🐉𝐅𝐨𝐫 𝐕𝐩𝐬
 ```bash
 apt install nodejs 
 apt install git 
@@ -73,17 +73,19 @@ apt apt install libwebp
 apt apt install imagrmagick
 apt install bash
 git clone https://github.com/Confronter/Dragon-v1
-cd Deadpool-Md
+cd Dragon-v1
 npm start
 ```
-## 🐉For 24/7 Activation (Termux)
+## 🐉𝐅𝐨𝐫 𝟐𝟒/𝟕 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧 (𝐓𝐞𝐫𝐦𝐮𝐱)
 ```
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
 
-## 💀Developer
+## 🐉𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑
 
-  - [**Follow Instagram**](https://instagram.com/confronter._)
-- [**WhatsApp Me**](https://wa.me/254796283064)
-  ❗️𝗖𝗢𝗡𝗙𝗥𝗢𝗡𝗧𝗘𝗥 𝗠𝗔𝗗𝗘 𝗜𝗧👻
+  - [**𝐅𝐨𝐥𝐥𝐨𝐰 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦**](https://instagram.com/confronter._)
+  - [**𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐌𝐞**](https://wa.me/254796283064)
+  - 𝗠𝗮𝗱𝗲 𝗮𝗻𝗱 𝗗𝗲𝘀𝗶𝗴𝗻𝗲𝗱 𝗯𝘆 𝗖𝗼𝗻𝗳𝗿𝗼𝗻𝘁𝗲𝗿😌
+  - 𝗙𝗼𝗹𝗹𝗼𝘄 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗮𝗻𝗱 𝗴𝗿𝗼𝘂𝗽𝘀 𝘂𝗽 𝘁𝗵𝗲𝗿𝗲🔸
+  - 𝗧𝗵𝗮𝗻𝗸𝘀 𝗮𝗹𝗹 🤝
   
