@@ -1,32 +1,34 @@
-<h1 align="center"> ☸𝐃𝐞𝐚𝐝𝐩𝐨𝐨𝐥 𝐕2☸ <br></h1>
+<h1 align="center"> 🐉𝐃𝐑𝐀𝐆𝐎𝐍 𝐕𝟏🐉 <br></h1>
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=602&pause=1000&color=F70000&random=false&width=435&lines=DEADPOOL-Md+made+by+Frank+;Follow+me+IG+%40confronter._" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=602&pause=1000&color=F70000&random=false&width=435&lines=𝐃𝐑𝐀𝐆𝐎𝐍-𝐕𝟏+made+by+Frank+;Follow+me+IG+%40confronter._" alt="Typing SVG" /></a>
   
-  <img src="https://telegra.ph/file/25868e0b53e19c300a3aa.jpg" />
+  <img src="http://telegra.ph/file/05b487770c937c5e751d6.jpg" />
 </p>
 
 <p align="center">
-𝘿𝙀𝘼𝘿𝙋𝙊𝙊𝙇-𝙈𝘿 Multi Device is a whatsapp bot created by <a href="https://github.com/Confronter" target="_blank">Frank</a> . Star the repo with courage 🌟.
+𝐃𝐑𝐀𝐆𝐎𝐍 𝐕𝟏 Multi Device is a whatsapp bot created by <a href="https://github.com/Confronter" target="_blank">Frank</a> . Star the repo with courage 🌟.
 </p>
 
 
 
-## 💀```Deadpool Group ❌ Channel ✝️```
+## 🐉```𝐃𝐑𝐀𝐆𝐎𝐍 𝐆𝐑𝐎𝐔𝐏 & 𝐂𝐇𝐀𝐍𝐍𝐄𝐋```
 
-- [ GROUP ](https://chat.whatsapp.com/Cl7CwM1UC9YEOWEiCzLAfe)
-- [Channel](https://whatsapp.com/channel/0029Vag3MeuGJP8LZb1Okj39)
+- [ 🔗𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗚𝗿𝗼𝘂𝗽 ](https://chat.whatsapp.com/FqvQzWARlwc7XlerabWq7z)
+- [🔗𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://whatsapp.com/channel/0029Vag3MeuGJP8LZb1Okj39)
+- [🔗𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dragonbugkiller)
 
-## 🔆🔆MADE BY ℂ𝕠𝕟𝕗𝕣𝕠𝕟𝕥𝕖𝕣❌𝕂𝕒𝕤̌𝕙𝕜𝕚𝕕
 
-# 💀```Must fork the repository✝️```
+## 🐉𝐌𝐀𝐃𝐄 𝐁𝐘 𝐂𝐎𝐍𝐅𝐑𝐎𝐍𝐓𝐄𝐑
 
-- FORK THE REPOSITORY [Here](https://github.com/Confronter/Deadpool-Md/fork)
+# 🐉```Must fork the repository✝️```
+
+- 𝗙𝗼𝗿𝗸 𝗧𝗵𝗲 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 [Here](https://github.com/Confronter/Dragon-v1/fork)
 
 ## `Deadpool Pair Code For Session`
 [![Deadpool](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@confrontermfisa/Deadpool-pair-4?s=app)
 
 
-# 💀```Deployment✝️```
+# 🐉```Deployment✝️```
   # ❄️SEE Tutorial how to deploy✔️
 [Video Tutorial](https://t.me/dragonbugkiller/31)
 ## Heroku Buildpack
@@ -45,7 +47,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 * Enjoy the Bot.
 ```
 ```
-## 💀For Termux/Ssh/Ubuntu
+## 🐉For Termux/Ssh/Ubuntu
 ```bash
 apt update
 apt upgrade
@@ -57,12 +59,12 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/Confronter/Deadpool-Md
+git clone https://github.com/Confronter/Dragon-v1
 cd Deadpool-Md
 yarn install
 npm start
 ```
-## 💀For VPS
+## 🐉For VPS
 ```bash
 apt install nodejs 
 apt install git 
@@ -70,11 +72,11 @@ apt apt install ffmpeg
 apt apt install libwebp 
 apt apt install imagrmagick
 apt install bash
-git clone https://github.com/Confronter/Deadpool-Md
+git clone https://github.com/Confronter/Dragon-v1
 cd Deadpool-Md
 npm start
 ```
-## 💀For 24/7 Activation (Termux)
+## 🐉For 24/7 Activation (Termux)
 ```
 npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ```
@@ -83,5 +85,5 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
   - [**Follow Instagram**](https://instagram.com/confronter._)
 - [**WhatsApp Me**](https://wa.me/254796283064)
-## THANKS✝️💛
+  ❗️𝗖𝗢𝗡𝗙𝗥𝗢𝗡𝗧𝗘𝗥 𝗠𝗔𝗗𝗘 𝗜𝗧👻
   
